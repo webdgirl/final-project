@@ -1,0 +1,180 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+	background: url(pattern.jpg) no-repeat center;
+	height: 100%;
+}
+
+.header  .container{
+	background-color: rgba(242, 242, 242, 0.9);
+	display: top;
+	max-height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.name {
+	display: inline-block;
+	font-family: 'Lobster', cursive;
+	padding-top: 5px;
+	margin-left: 210px;
+}
+
+.name h1 {
+	margin: 0 auto;
+}
+
+.name a {
+	text-decoration: none;
+	color: #886E9D;
+}
+
+.nav {
+  position:relative;
+  display:inline;
+	float: right;
+	margin-right: 180px;
+}
+.nav-list {
+  padding: 0;
+	margin-bottom: 0;
+}
+.nav-item {
+  display:inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+.nav-item:hover {
+  background-color: rgba(81, 164, 179, 0.2);
+}
+
+.nav-item a.active {
+	background-color: rgba(81, 164, 179, 0.2);
+}
+
+.nav-item a {
+  display:block;
+  padding:15px 20px;
+	text-decoration: none;
+	color: #886E9D;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.main .container {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.main .about, .contact{
+	text-align: left;
+}
+
+.main .about .col-md-8 {
+	margin-bottom: 25px;
+}
+
+.main  h4 {
+	text-transform: uppercase;
+}
+
+.main .img {
+	height: 180px;
+	width: 300px;
+	border: 3px solid rgba(81, 164, 179, 0.4);
+	margin: 15px 15px;
+	padding: 0;
+	display: inline-block;
+}
+
+.main img {
+	width: 100%;
+	height: 100%;
+}
+
+.footer {
+	background-color: rgba(242, 242, 242, 0.9);
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.copyright {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.social {
+  display: inline-block;
+	margin-left: 300px;
+}
+
+.social a{
+	padding: 0 30px;
+}
+
+#codecademy {
+  height: 21px;
+	width: 100px;
+}
+
+#github {
+	height: 18px;
+	width: 70px;
+}
+
+.address {
+  float: right;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+
+
+@media(max-width: 500px) {
+	.nav, .name {
+    width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+  }
+  .nav-item {
+    width:100%;
+    float:none;
+		text-align: center;
+  }
+}
+
+@media(max-width: 1000px) {
+	.nav, .name {
+    width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+  }
+
+	.copyright, .social, .address {
+		width: 100%;
+		text-align: center;
+		margin: 15px 0 10px 0;
+		padding: 0;
+	}
+	
+	.social a {
+		padding: 15px 20px;
+	}
+	
+  .nav-list {
+    width:100%;
+    float: none;
+		text-align: center;
+  }
+
+}
